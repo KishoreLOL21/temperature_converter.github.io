@@ -1,0 +1,55 @@
+body{
+    background-image: url('thermometer.jpg');
+    background-size:cover;
+}
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    color:rgb(0, 174, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+#input{
+    height: 70px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#converters{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#celcius{
+    text-align: justify;
+    position: relative;
+    left: -12px;
+}
+
+#farenheit{
+    text-align: justify;
+}
+
+#result_display{
+    font-size: 50px;
+    text-align: center;
+}
+
+#button{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
